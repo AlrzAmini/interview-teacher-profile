@@ -1,0 +1,111 @@
+{
+  "Teachers": [
+    {
+      "Id": 1,
+      "FirstName": "علیرضا",
+      "LastName": "محمدی",
+      "DisplayName": "استاد محمدی",
+      "ImageUrl": "/content/images/teachers/mohammadi.jpg",
+      "Bio": "استاد با ۱۲ سال سابقه تدریس در حوزه برنامه‌نویسی و طراحی وب.",
+      "Phone": "09120000000",
+      "Email": "mohammadi@example.com",
+      "Skills": ["C#", "ASP.NET MVC", "SQL Server"]
+    },
+    {
+      "Id": 2,
+      "FirstName": "مریم",
+      "LastName": "احمدی",
+      "DisplayName": "استاد احمدی",
+      "ImageUrl": "/content/images/teachers/ahmadi.jpg",
+      "Bio": "کارشناس ارشد علوم تربیتی و مدرس دوره‌های کودک و نوجوان.",
+      "Phone": "09123333333",
+      "Email": "ahmadi@example.com",
+      "Skills": ["روانشناسی کودک", "مهارت‌های زندگی", "تدریس خلاق"]
+    }
+  ],
+  "Courses": [
+    {
+      "Id": 101,
+      "TeacherId": 1,
+      "Title": "آموزش مقدماتی C#",
+      "Category": "برنامه‌نویسی",
+      "StartDate": "2025-01-10",
+      "EndDate": "2025-03-15",
+      "Price": 1800000,
+      "Capacity": 20,
+      "Status": "Active",
+      "SessionsCount": 12,
+      "StudentsCount": 17
+    },
+    {
+      "Id": 102,
+      "TeacherId": 1,
+      "Title": "ASP.NET MVC پیشرفته",
+      "Category": "برنامه‌نویسی",
+      "StartDate": "2025-04-01",
+      "EndDate": "2025-06-20",
+      "Price": 2500000,
+      "Capacity": 15,
+      "Status": "Upcoming",
+      "SessionsCount": 16,
+      "StudentsCount": 0
+    },
+    {
+      "Id": 201,
+      "TeacherId": 2,
+      "Title": "مهارت‌های زندگی برای نوجوانان",
+      "Category": "توسعه فردی",
+      "StartDate": "2025-02-05",
+      "EndDate": "2025-04-29",
+      "Price": 950000,
+      "Capacity": 25,
+      "Status": "Active",
+      "SessionsCount": 10,
+      "StudentsCount": 22
+    }
+  ],
+  "CourseSessions": [
+    {
+      "Id": 1001,
+      "CourseId": 101,
+      "StartedAt": "2025-01-10 16:00",
+      "Status": "Held"
+    },
+    {
+      "Id": 1002,
+      "CourseId": 101,
+      "StartedAt": "2025-01-17 16:00",
+      "Status": "Held"
+    },
+    {
+      "Id": 1003,
+      "CourseId": 101,
+      "StartedAt": "2025-01-24 16:00",
+      "Status": "Held"
+    },
+    {
+      "Id": 2001,
+      "CourseId": 102,
+      "StartedAt": "2025-04-01 17:00",
+      "Status": "Upcoming"
+    },
+    {
+      "Id": 2002,
+      "CourseId": 102,
+      "StartedAt": "2025-04-08 17:00",
+      "Status": "Upcoming"
+    },
+    {
+      "Id": 3001,
+      "CourseId": 201,
+      "StartedAt": "2025-02-05 15:00",
+      "Status": "Held"
+    },
+    {
+      "Id": 3002,
+      "CourseId": 201,
+      "StartedAt": "2025-02-12 15:00",
+      "Status": "Held"
+    }
+  ]
+}
