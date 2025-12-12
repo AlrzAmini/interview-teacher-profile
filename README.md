@@ -1,7 +1,7 @@
 # Interview Task — Teacher Profile (ASP.NET MVC, .NET Framework 4.8)
 
 ## Overview
-Create a **Teacher Profile** page for an ASP.NET MVC (Framework 4.8) application using the provided `SampleData/SampleData.json`. The goal is to demonstrate ability in reading data, building ViewModels, MVC views (Bootstrap 3), and presenting related data (courses & sessions).
+Create a **Teacher Profile** page for an ASP.NET MVC (Framework 4.8) application using the provided `SampleData/SampleData.json`. The goal is to demonstrate ability in reading data, building ViewModels, MVC views (Bootstrap 3 Or 5), and presenting related data (courses & sessions).
 
 ## Provided
 - `SampleData/SampleData.json` — sample teachers, courses, and sessions.
