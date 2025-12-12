@@ -12,13 +12,12 @@ Create a **Teacher Profile** page for an ASP.NET MVC (Framework 4.8) application
    - Teacher info (name, image, bio, contact, skills)
    - Teacher's courses (title, category, price, capacity, students count, start/end date)
    - Sessions per course (date/time, status)
-3. Use **Bootstrap 3** for layout & responsiveness.
+3. Use **Bootstrap 3 Or 5** for layout & responsiveness.
 4. Use ViewModel to pass data to the view.
 5. Project must run on **.NET Framework 4.8** (ASP.NET MVC).
 
 ## Optional (bonus)
 - Implement server-side filtering/sorting for courses.
-- Add a small WebAPI to serve the data (WebApi2).
 - Convert dates to Jalali (optional).
 - Nice-to-have UI: "View Sessions" expansion, badges for status, counts.
 
@@ -33,11 +32,10 @@ Create a **Teacher Profile** page for an ASP.NET MVC (Framework 4.8) application
 - Code structure and readability.
 - Use of ViewModels & MVC conventions.
 - Clean UI with Bootstrap 3 or 5.
-- Extra features are a plus.
 
 ## How to run
 1. Clone repository.
-2. Open the MVC project in Visual Studio 2019+.
-3. Restore NuGet packages.
-4. Run the project and open `/Teacher/Profile/1` (or whichever route provided).
+2. Create a new ASP.NET MVC project in Visual Studio 2019+ targeting .NET Framework 4.8.
+3. Implement the Teacher Profile page according to the instructions in INSTRUCTIONS.md.
+4. Run the MVC project in Visual Studio and navigate to your implemented route (e.g., /Teacher/Profile/{id}).
 
